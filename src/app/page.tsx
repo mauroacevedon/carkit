@@ -2,16 +2,18 @@
 
 import Slider from "./componentes/slider"
 import Button from "./componentes/Button"
+import CardInternal from "./componentes/CardInternal"
+import CardLayour from "./componentes/CardLayout"
+import CardTwo from "./componentes/CardTwo"
 
 export default function Home() {
   const funcion = () => {
-    console.log("Hola MUNDO 22")
+    console.log("Funciona")
   }
   return (
     <>
     <Slider/>
-
-    {/* <Button text={"bOTOO2"} funcion={funcion}/> */}
+    <CardTwo/>
     </>
   );
 
