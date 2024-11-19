@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <Slider/>
 
-    <Button text={"bOTOO2"} funcion={funcion}/>
+    {/* <Button text={"bOTOO2"} funcion={funcion}/> */}
     </>
   );
 
